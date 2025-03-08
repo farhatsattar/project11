@@ -1,0 +1,26 @@
+[project]
+name = "project11"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "farhat sattar", email = "farhatsattar8675@gmail.com" }
+]
+requires-python = " >=3.11.6"
+dependencies = [
+    "crewai>=0.102.0",
+    "crewai-tools>=0.36.0",
+    "fpdf>=1.7.2",
+    "streamlit>=1.43.0",
+]
+
+[project.scripts]
+project11 = "project11:main"
+book =  "project11.agent1_main:Bookwriter"
+writer = "project11.agent2_main:writer"
+End = "project11.main:Last"
+test = "project11.Flow:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
