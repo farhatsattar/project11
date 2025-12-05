@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-model= LLM(model="gemini/gemini-1.5-flash",temperature=0.7,max_tokens=4096)
+model= LLM(model="gemini/gemini-2.0-flash",temperature=0.7,max_tokens=4096)
 
 
 
