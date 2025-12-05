@@ -24,7 +24,7 @@ class BookwriterTask:
             
                   """,
                     
-            tools=[search_tool ],
+            tools=[search_tool],
             agent=agent,
             expected_output= f"""A detailed outline for the book in the format of the following
             Topic:{topic}
