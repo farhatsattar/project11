@@ -1,5 +1,5 @@
-from crewai import Task
-from crewai_tools import SerperDevTool 
+from crewai import Task  # type: ignore
+from crewai_tools import SerperDevTool  # type: ignore
 
  
 from dotenv import load_dotenv

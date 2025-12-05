@@ -1,7 +1,7 @@
 
 from .agents import MyBookWriterAgents
 from .tasks import BookwriterTask
-from crewai import Crew
+from crewai import Crew  # type: ignore
 
 
 def outline_writer(topic):

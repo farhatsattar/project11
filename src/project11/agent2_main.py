@@ -1,6 +1,6 @@
 from .agents import MyBookWriterAgents
 from .tasks import BookwriterTask
-from crewai import Crew
+from crewai import Crew  # type: ignore
 
 def writer(data):
     agents = MyBookWriterAgents()
