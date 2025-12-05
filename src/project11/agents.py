@@ -4,7 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 model= LLM(model="gemini/gemini-2.0-flash",temperature=0.7,max_tokens=4096)
+
+
+
 
 class MyBookWriterAgents:
     def Outline_Writer(self):
